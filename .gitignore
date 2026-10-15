@@ -1,0 +1,40 @@
+# Local dependencies
+node_modules/
+
+# Environment variables and local credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+
+# Logs and runtime files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.pid
+*.pid.lock
+
+# Caches, coverage, and temporary files
+.cache/
+.npm/
+coverage/
+.nyc_output/
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+*~
+
+# Editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# dist/ contains the website source and must remain tracked.
+# .openai/hosting.json contains shared hosting configuration.
