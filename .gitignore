@@ -19,6 +19,7 @@ yarn-error.log*
 
 # Caches, coverage, and temporary files
 .cache/
+.vite/
 .npm/
 coverage/
 .nyc_output/
@@ -36,5 +37,8 @@ temp/
 Thumbs.db
 Desktop.ini
 
-# dist/ contains the website source and must remain tracked.
+# Generated build output
+dist/
+*.tsbuildinfo
+
 # .openai/hosting.json contains shared hosting configuration.
